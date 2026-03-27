@@ -123,7 +123,8 @@ The dataset includes:
 
 ## 📸 Dashboard Preview
 
-(Add your screenshots here)
+<img width="1128" height="641" alt="image" src="https://github.com/user-attachments/assets/ef3cd19f-765c-4cb5-ba9a-fc9e21cd9bbc" />
+
 
 ---
 
