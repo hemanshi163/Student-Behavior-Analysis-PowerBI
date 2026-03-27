@@ -1,70 +1,136 @@
 # 📊 Student Behavior Analysis Dashboard (Power BI)
 
+---
+
 ## 📌 Project Overview
-This project analyzes how students' social media usage impacts sleep patterns, academic performance, mental health, and relationship dynamics using an interactive Power BI dashboard.
 
-The dashboard provides insights for educators, counselors, and researchers to make data-driven decisions.
+This project analyzes how students’ social media usage impacts their **sleep patterns, academic performance, mental health, and relationships**.
 
----
-
-## 🎯 Objectives
-- Analyze relationship between social media usage and sleep habits
-- Evaluate academic performance impact
-- Understand mental health trends
-- Identify behavioral patterns across demographics
+The dashboard provides interactive insights using Power BI, enabling stakeholders to explore patterns across age, gender, academic level, and platform usage.
 
 ---
 
-## 🏗 Data Modeling
-- Created relationship between Student Details and Platform Details using Student_ID
-- Designed a star schema (Fact: behavioral metrics, Dimension: demographics)
-- Built a custom Date Table using DAX for time-based analysis
+## 🎯 Business Problem
+
+Educational institutions and mental health professionals want to understand:
+
+* How excessive social media usage affects student performance
+* Whether addiction levels correlate with mental health
+* Which student groups are most impacted
+* How platform usage influences academic outcomes
 
 ---
 
-## 🧮 Key Calculations (DAX)
-- Health Band classification (Good / Average / Poor)
-- Conflict Level segmentation (Low / Medium / High)
-- Average Sleep Hours
-- Average Usage Hours
-- % Academically Affected Students
-- Addicted Student Count
+## 🛠 Tools & Technologies
+
+* Power BI
+* DAX (Measures & Calculations)
+* Data Modeling
+* Data Cleaning & Transformation
+
+---
+
+## 📂 Dataset
+
+The dataset includes:
+
+* Student demographics (Age, Gender, Country)
+* Academic level (High School, Undergraduate, Graduate)
+* Social media usage hours
+* Addiction scores
+* Mental health scores
+* Sleep hours
+* Relationship status & conflict levels
+* Platform usage (Instagram, TikTok, etc.)
 
 ---
 
 ## 📊 Dashboard Features
-- Executive Overview with KPIs (Total Students, Avg Usage, Sleep, Academic Impact)
-- Mental Health & Lifestyle analysis
-- Academic Impact visualization
-- Relationship & Conflict analysis
-- Interactive bookmark views (Gender vs Academic Level)
-- Drill-through student profile page
+
+### 🔹 KPI Cards
+
+* Total Students: **705**
+* Avg Usage Hours: **4.92 hrs**
+* % Academically Affected: **64.26%**
+* Avg Sleep Hours: **6.87 hrs**
 
 ---
 
-## 🔍 Key Insights
-- Higher social media usage is linked to lower sleep duration
-- Students with higher addiction scores tend to have poorer mental health
-- Academic performance is negatively impacted by excessive usage
-- Conflict levels increase with higher social media engagement
-- Behavioral patterns vary significantly across demographics
+### 🔹 Key Visualizations
+
+#### 📈 Usage & Sleep Analysis
+
+* Social media usage peaks around **age 18–19**
+* Sleep patterns improve slightly with age but fluctuate
+
+#### 📊 Academic Impact
+
+* High percentage of students (**64%**) report academic impact
+* High school students show slightly higher usage than graduates
+
+#### 📉 Addiction vs Mental Health
+
+* Strong negative relationship observed
+* Higher addiction scores correspond to **lower mental health scores**
+
+#### 👥 Gender Distribution
+
+* Nearly equal distribution between male and female students
+* Indicates insights are broadly applicable across genders
+
+#### 📱 Platform Impact
+
+* Platforms like **WhatsApp, TikTok, Snapchat** show higher academic impact
+* Platforms like **YouTube and Facebook** show relatively lower impact
+
+#### ❤️ Relationship & Conflict Analysis
+
+* Students in relationships show moderate conflict levels
+* Single students also report significant conflict—indicating stress beyond relationships
+
+---
+
+## 📊 Key Insights
+
+* Students with higher social media usage tend to have **reduced sleep hours**
+* **64% of students** report academic performance being affected
+* Higher addiction levels are linked with **poorer mental health scores**
+* High school students show the **highest usage levels**
+* Certain platforms contribute more to academic impact than others
+* Social media usage impacts both **academic and personal life (relationships)**
 
 ---
 
 ## 💡 Business Recommendations
-- Promote digital wellness and reduce excessive screen time
-- Introduce student awareness programs on sleep health
-- Provide targeted mental health support for high-risk groups
-- Use behavioral data for academic intervention strategies
+
+* Introduce **digital wellness programs** in schools and colleges
+* Educate students on **screen time management**
+* Target high-risk groups (high usage + high addiction)
+* Promote awareness about **mental health impacts of social media**
+* Encourage platform-specific usage moderation
 
 ---
 
-## 📊 Dashboard Preview
-![Dashboard](images/dashboard.png)
+## ⚙️ Advanced Features Implemented
+
+* ✅ **DAX Measures** for KPIs and calculated metrics
+* ✅ **Interactive Filters (Slicers)** for Gender, Age, Academic Level
+* ✅ **Bookmarks Navigation** (Gender View / Academic View)
+* ✅ **Drill-down analysis** across demographics
+* ✅ **Data Modeling** using multiple tables
 
 ---
 
-## 📂 Files Included
-- Power BI Dashboard
-- Dataset
-- Dashboard screenshots
+## 📸 Dashboard Preview
+
+(Add your screenshots here)
+
+---
+
+## 🚀 Conclusion
+
+This dashboard highlights the significant impact of social media on students’ academic performance, sleep, and mental well-being.
+
+It provides actionable insights that can help educators and policymakers take data-driven decisions.
+
+---
